@@ -1,10 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int marks[5] = {80,90,70,60,50};
-    for(int i=5; i>=0; i--)
+    int i,sum=0;
+    int marks[7]={50.60,70,80,90 45};
+    for(int i=0; i<=6;i++)
     {
-        printf("%d\n", marks[i]);
+        printf("%d\n",marks[i]);
+
     }
-    return(0);
+    for(i=0;i<=6;i++)
+    {
+        sum=sum+marks[i];
+
+    }
+    printf("%d=sum of all element",sum);
+
 }
+return(0);
